@@ -1406,12 +1406,13 @@ PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
             4357263,
         ),  # v1.3.0  Default singleton address
     ],
-    EthereumNetwork.MEILIN_MAINNET: [
+    EthereumNetwork.MERLIN_MAINNET: [
         ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 4104087),  # v1.3.0
     ],
-    EthereumNetwork.MEILIN_TESTNET: [
-        ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 3664444),  # v1.3.0
+    EthereumNetwork.MERLIN_L1: [
+        ("0x4216f1ce1F0e9FC1131F1eb322353185821624CD", 3534660),  # v1.4.1
     ],
+
     EthereumNetwork.UNREAL_TESTNET: [
         ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 735),  # v1.3.0
     ],
